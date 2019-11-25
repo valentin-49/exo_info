@@ -1,0 +1,49 @@
+html {height:100%;}
+body {height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+* { margin: 0px; padding: 0px; }
+
+#en-tete
+{
+    background-color:#020202;
+    color: white;
+    height:10%;
+}
+#bloc-principal
+{
+    background-color: burlywood;
+    height: 80%;
+    color: crimson;
+}
+#bloc-50-1
+{
+    background-color: cornflowerblue;
+    height: 50%;
+    width: 20%;
+    color: #020202;
+}
+#bloc-50-2
+{
+    background-color: darkred;
+    height: 50%;
+    width: 20%;
+    color: #020202;
+}
+#bloc-droite
+{
+    background-color: green;
+    height: 30%;
+    width: 30%;
+    color: crimson;
+    float: right;
+}
+#bas-de-page
+{
+    background-color: #020202;
+    color: white;
+    height: 10%
+}
+

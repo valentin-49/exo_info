@@ -1,0 +1,30 @@
+* { margin: 0px; padding: 0px; }
+
+#Bandeau
+{
+    background-color: black;
+    color: white;
+    height: 10%;
+}
+
+#bloc-principal
+{
+    background-color: burlywood;
+    height: 80%;
+    color: crimson;
+}
+
+#Menu
+{
+    background-color: chartreuse;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+
+#Pieddepage
+{
+    background-color: black;
+    color: white;
+    height: 10%; 
+}

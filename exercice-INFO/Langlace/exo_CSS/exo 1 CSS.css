@@ -1,0 +1,24 @@
+* { margin: 0px; padding: 0px; }
+
+#Bandeau
+{
+    background-color: black;
+    color: white;
+    height: 10%;
+    color: red;
+}
+
+#Contenu
+{
+    background-color: crimson;
+    color: black;
+    height: 80%;
+}
+
+#Pieddepage
+{
+    background-color: black;
+    color: white;
+    height: 10%;
+    color: red;
+}

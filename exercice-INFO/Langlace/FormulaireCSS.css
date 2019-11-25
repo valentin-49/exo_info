@@ -1,0 +1,68 @@
+html {height:100%;}
+body {height:100%;
+padding: 0%; margin: 0%;
+background-image: 
+}
+
+
+#exoHTML
+{
+    float: left;
+    height: 50%;
+    width: 30%; 
+    cursor: crosshair;
+      
+}
+
+#exoCSS
+{
+    float: left;
+    height: 50%;
+    width: 40%;
+    cursor: crosshair;   
+}
+
+#bas
+{
+    position: fixed;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    cursor: crosshair;
+}
+
+#exoPHP
+{
+    float: right;
+    height: 50%;
+    width: 30%;
+    cursor: crosshair;
+}
+.titre
+{
+   height: 10%; 
+   width: 100%;
+}
+
+#tp1
+{
+    height: 50%;
+    width: 50%; 
+    float: left;  
+    margin: 0;
+}
+
+#tp2
+{
+    height: 50%;
+    width: 50%; 
+    float: right;  
+    margin: 0;
+}
+#exo_BDD
+{
+    float: left;
+    height: 100%;
+    width: 30%;
+    cursor: crosshair;
+}

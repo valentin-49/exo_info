@@ -1,0 +1,32 @@
+.div1
+{
+    font-size: 20px;
+    background-color: red;
+    color: black;
+    padding: 30px;
+}
+.div2
+{
+    font-size: 20px;
+    background-color: blue;
+    color: black;
+    padding: 30px;
+    width: 100px;
+    height: 500px;
+
+}
+.div3
+{
+    font-size: 20px;
+    background-color: green;
+    color: black;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    left: 20px;
+
+
+
+    
+}
