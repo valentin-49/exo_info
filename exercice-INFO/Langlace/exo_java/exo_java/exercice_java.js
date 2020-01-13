@@ -47,3 +47,9 @@ function Affiche() {
     Addition(tab[2]);
     Addition(tab[tab.length-1]);
 }
+
+function boucle(){
+
+    alert("yolo");
+   
+}
