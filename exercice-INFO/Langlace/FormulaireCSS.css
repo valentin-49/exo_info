@@ -1,7 +1,7 @@
 html {height:100%;}
 body {height:100%;
 padding: 0%; margin: 0%;
-background-image: 
+background-image: url(image/background.jpg);
 }
 
 
@@ -59,7 +59,7 @@ background-image:
     float: right;  
     margin: 0;
 }
-#exo_BDD
+#exo_java
 {
     float: left;
     height: 100%;
