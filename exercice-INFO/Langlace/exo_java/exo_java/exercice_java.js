@@ -6,7 +6,7 @@ function PerimetreAir() {
     var ResultatAir = longueur * largeur;
 
     alert("Le rectangle a un perimetre de  " + ResultatPerimetre + "cm");
-    alert("L'air du rectangle est de " + ResultatAir + "m2");
+    alert("L'air du rectangle est de " + ResultatAir + "cm2");
 }
 
 function Cercle() {
@@ -17,7 +17,7 @@ function Cercle() {
     var ResultatAir = 3.14 * Math.pow(longAir, 2);
 
     alert("le cercle à un perimetre de " + ResultatPerimetre.toFixed(1) + "cm");
-    alert("l'air du cercle est de " + ResultatAir + "m²");
+    alert("l'air du cercle est de " + ResultatAir + "cm²");
 }
 
 var a = 3;
@@ -42,7 +42,7 @@ function Addition(X) {
     alert(result);
 }
 
-function Affiche() {
+function Afficheadd() {
     alert("yolo");
     Addition(tab[2]);
     Addition(tab[tab.length-1]);
@@ -50,6 +50,42 @@ function Affiche() {
 
 function boucle(){
 
+    var i;
+    var incre;
+    var tablong;
+    var tab =[];
+
     alert("yolo");
-   
+    tablong=prompt("entrez la taille du tableau");
+    i=prompt("valeur de i ");
+
+    tab[0]=i;
+
+    for(incre=0; incre<tablong; incre++){
+
+        i=i*i
+        tab[incre]=i
+        alert(tab[incre]);
+    }
+  
+}
+
+var tab = Array(-2, 1, 4, 6, 8, 10);
+
+function Soustraction(X) {
+    var result = X - 2;
+    alert(result);
+}
+
+function AfficheSou() {
+    alert("yolo");
+    Soustraction(tab[0]);
+    Soustraction(tab[tab.length-1]);
+}
+
+function centrage_h1(){
+    alert("yolo");
+    var centre =document.getElementById('texts');
+    centre.innerHTML='Le texte est modifier.';
+    alert("yolo");
 }
