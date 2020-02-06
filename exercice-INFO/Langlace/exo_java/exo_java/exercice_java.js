@@ -84,8 +84,65 @@ function AfficheSou() {
 }
 
 function centrage_h1(){
-    alert("yolo");
     var centre =document.getElementById('texts');
     centre.innerHTML='Le texte est modifier.';
+}
+
+function openWin() {
+    myWindow = window.open("", "", "width=1300, height=740");
+    myWindow.document.write("<img src='../../image/david.jpg'>")  
+}
+    
+function resize_to(){
+    myWindow.resizeTo(50,50);
+    myWindow.focus(); 
+}
+
+function move_to(){
+    myWindow.moveTo(100,100);
+    myWindow.focus(); 
+}
+
+function move_by(){
+    myWindow.moveBy(100,100);
+    myWindow.focus(); 
+}
+
+function resize_by(){
+    myWindow.resizeBy(-30,-30);
+    myWindow.focus(); 
+}
+
+function funcNavig(){
+    alert("Vous utilisez " + navigator.appName);
+    alert("Vous utilisez " + navigator.appCodeName);
+    alert("Vous utilisez " + navigator.appVersion);
+    alert("Vous utilisez " + navigator.buildID);
+    alert("Vous utilisez " + navigator.cookieEnabled);
+    alert("Vous utilisez " + navigator.language);
+    alert("Vous utilisez " + navigator.mimeTypes);
+    alert("Vous utilisez " + navigator.onLine);
+    alert("Vous utilisez " + navigator.oscpu);
+    alert("Vous utilisez " + navigator.platform);
+    alert("Vous utilisez " + navigator.plugins);
+    alert("Vous utilisez " + navigator.product);
+    alert("Vous utilisez " + navigator.productSub);
+    alert("Vous utilisez " + navigator.securityPolicy);
+    alert("Vous utilisez " + navigator.userAgent);
+    alert("Vous utilisez " + navigator.vendor);
+    alert("Vous utilisez " + navigator.vendorSub);
+}
+var valeur;
+
+function remise_a_zero(){   
+    alert("reset");
+    valeur= undefined;
+
+}
+
+function fctSubmit(){
     alert("yolo");
+    valeur = document.forms['formulaire'].elements['text'].value;
+    alert(valeur);
+
 }
